@@ -59,7 +59,10 @@ EF add-migration classes.
 #### Service
 EF service implementation. This class responsible to create queries, update queries and etc..
 
-### Model Folder
+#### Controller
+Business logic layer that communicate between service and pages.
+
+#### Model
 Includes Entity Framework Core Entities which creates sql table with **Entity Framework Core Code First Aproach**. 
 You can see example of **code-first** Entity definition as below;
 
